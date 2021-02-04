@@ -22,4 +22,4 @@ I will upload a pre-preprint for the *Staphylococcus aureus* community following
 
 * Multiplex nuclease flush protocol for 24-36 isolates / flowcell
 * SNP polishers and hybrid lineage reconstruction with nanopore + Illumina background
-* Bayesian phylodynamic modelling for outbreak epidemiology + GPU (Phybeast `Nextflow`)
+* Bayesian phylodynamic modelling for outbreak epidemiology + GPU (Phybeast + Beastling API + `Nextflow`)
