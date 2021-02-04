@@ -18,7 +18,7 @@ I will upload a pre-preprint for the *Staphylococcus aureus* community following
 
 * `Nextflow` pipeline for paper
 
-## Nanopore Phylodynamics
+## Nanopore phylodynamic modelling of bacterial outbreaks
 
 * Multiplex nuclease flush protocol for 24-36 isolates / flowcell
 * SNP polishers and hybrid lineage reconstruction with nanopore + Illumina background
