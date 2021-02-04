@@ -10,6 +10,6 @@ This repository is meant to hold the data and preprint materials for our paper `
 
 ## Overview 
 
-I uploaded a pre-preprint for the *Staphylococcus aureus* community following the presentation at the ECR seminar. Please note it is not complete yet and sections or figures may still change, but it is a decent summary of the phylodynamic modelling and the data from Papua New Guinea and Far North Queensland.
+I will upload a pre-preprint for the *Staphylococcus aureus* community following the presentation at the ECR seminar. Please note it is not complete yet and sections or figures may still change, but it is a decent summary of the modelling and the data from Papua New Guinea and Far North Queensland.
 
-* Pre-preprint `v0.4.1`: [Phylodynamic signals in the emergence of community-associated MRSA]()
+* Pre-preprint `v0.4.1`: [Phylodynamic signals in the emergence of community-associated MRSA]() *not yet uploaded*
