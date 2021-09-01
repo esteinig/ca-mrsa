@@ -6,7 +6,7 @@
 ![](https://img.shields.io/badge/version-0.1.0-purple.svg)
 ![](https://img.shields.io/badge/biorxiv-v1-blue.svg)
 
-This repository is meant to hold the data and preprint materials for our project `Phylodynamic modelling of community-associated MRSA`. We welcome all comments or reviews on the preprints, and would encourage interested parties to use public reviews on [PubPeer](https://pubpeer.com/search?q=https%3A%2F%2Fdoi.org%2F10.1101%2F2021.04.30.442212+).
+Data and preprint materials for our project `Phylodynamic modelling of community-associated MRSA`. We welcome all comments or reviews on the preprints, and would encourage interested parties to use public reviews on [PubPeer](https://pubpeer.com/search?q=https%3A%2F%2Fdoi.org%2F10.1101%2F2021.04.30.442212+).
 
 ## Preprints 
 
