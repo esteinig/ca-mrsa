@@ -6,7 +6,7 @@
 ![](https://img.shields.io/badge/version-0.1.0-purple.svg)
 ![](https://img.shields.io/badge/biorxiv-v1-blue.svg)
 
-This repository is meant to hold the data and preprint materials for our project `Phylodynamic modelling of community-associated MRSA`. We welcome all comments or reviews on the preprint, and would encourage interested parties to create an issue in the repository or on public reviewing platforms like [PubPeer](https://pubpeer.com/search?q=https%3A%2F%2Fdoi.org%2F10.1101%2F2021.04.30.442212+). We will publish all data and workflows. as well as model configurations on submission to `BioRxiv`.
+This repository is meant to hold the data and preprint materials for our project `Phylodynamic modelling of community-associated MRSA`. We welcome all comments or reviews on the preprint, and would encourage interested parties to create an issue in the repository or on public reviewing platforms like [PubPeer](https://pubpeer.com/search?q=https%3A%2F%2Fdoi.org%2F10.1101%2F2021.04.30.442212+).
 
 ## Preprints 
 
@@ -24,6 +24,6 @@ All sequence data including meta-data can be found at NCBI BioProject [PRJNA6573
 ## Reproducibility
 
 * [`Nextflow` pipeline](https://github.com/np-core/np-phybeast) for the basic phylogenetics workflow; includes instructions for the protoype of `Beastling` which now can be found under development as [`Critter`](https://github.com/esteinig/critter/). `Beastling` version used in the preprint is part of [`NanoPath`](https://github.com/np-core/nanopath)
-* `Beastling` configuration files and `BEAST` model files to replicate runs can be found [in this repository](./models)
+* `Beastling` configuration files and `BEAST` model files to replicate runs can be found [in this repository](manuscripts/models)
 * Multiplex nuclease flush protocol for 24-36 isolates per flowcell for MinION (deatiled protocol in preprint)
 * SNP polishers and hybrid outbreak reconstruction with ONT and Illumina lineage background are implemented in [`NanoPath`](https://github.com/np-core/nanopath) (detailed instructions for running pipelines in preprint)
