@@ -23,7 +23,7 @@ All sequence data including meta-data can be found at NCBI BioProject [PRJNA6573
 
 ## Reproducibility
 
-* [`Nextflow` pipeline](https://github.com/np-core/np-phybeast) for the basic phylogenetics workflow; includes instructions for the protoype of `Beastling` which now can be found under development as [`Critter`](https://github.com/esteinig/critter/). `Beastling` version used in the preprint is part of [`NanoPath`](https://github.com/np-core/nanopath)
+* [`Nextflow` pipeline](https://github.com/np-core/np-phybeast) for the basic phylogenetics workflow; includes instructions for the protoype of `Beastling` which now can be found under development as [`Critter`](https://github.com/esteinig/critter/) on branch `v0.1.0`. Old `Beastling` version used in the preprint is part of [`NanoPath`](https://github.com/np-core/nanopath)
 * `Beastling` configuration files and `BEAST` model files to replicate runs can be found [in this repository](manuscripts/models)
 * Multiplex nuclease flush protocol for 24-36 isolates per flowcell for MinION (deatiled protocol in preprint)
 * SNP polishers and hybrid outbreak reconstruction with ONT and Illumina lineage background are implemented in [`NanoPath`](https://github.com/np-core/nanopath) (detailed instructions for running pipelines in preprint)
