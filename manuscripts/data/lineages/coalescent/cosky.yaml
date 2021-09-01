@@ -1,0 +1,49 @@
+priors:
+  model:
+    pop_size:
+      dimension: 4 # change dimensions
+      lower: 0
+      upper: infinity
+      initial: 380
+    group_size:
+      dimension: 4  # change dimensions
+      lower: null  # keep this
+      upper: null  # keep this
+      initial: 1
+  clock: # Clock priors [selected in command-line]
+    rate: # strict
+      distribution: lognormal
+      dimension: 1
+      initial: 5.0e-04
+      lower: 0
+      upper: infinity
+      mean: 3e-04
+      sd: 0.3
+      real_space: true
+    uced: # relaxed exponential
+      distribution: lognormal
+      dimension: 1
+      initial: 5.0e-04
+      lower: 0
+      upper: infinity
+      mean: 3e-04
+      sd: 0.3
+      real_space: true
+    ucld_mean: # relaxed lognormal
+      distribution: lognormal
+      dimension: 1
+      initial: 5.0e-04
+      lower: 0
+      upper: infinity
+      mean: 3e-04
+      sd: 0.3
+      real_space: true
+    ucld_sd: # relaxed lognormal
+      distribution: lognormal
+      dimension: 1
+      initial: 5.0e-04
+      lower: 0
+      upper: infinity
+      mean: 3e-04
+      sd: 0.3
+      real_space: true

@@ -1,0 +1,85 @@
+priors:
+  model: # Model priors [all]
+    origin:
+      distribution: gamma
+      dimension: 1
+      initial: 50.0
+      lower: 0
+      upper: infinity
+      alpha: 2.0
+      beta: 40.0
+      mode: shape_mean
+    reproductive_number:
+      distribution: gamma
+      dimension: 9
+      initial: 2.0
+      lower: 0
+      upper: infinity
+      alpha: 2.0
+      beta: 2.0
+      mode: shape_mean
+    become_uninfectious:
+      distribution: lognormal
+      dimension: 1
+      initial: 1.0
+      lower: 0
+      upper: infinity
+      mean: 0.2
+      sd: 1.0
+      real_space: true
+    sampling_proportion:
+      distribution: beta
+      dimension: 1
+      initial: 0.01
+      lower: 0
+      upper: 1.0
+      alpha: 1.0
+      beta: 1.0
+  intervals:
+    sampling_proportion: # pre-sampling / contemporary sampling slicing
+      change_times: [22.1, 0]
+      intervals: # ordered list of dicts matching change_times
+        - distribution: exponential
+          initial: 0 # zero fixing
+          mean: 1e-08
+        - distribution: beta # flat prior as we have no clue
+          initial: 0.01
+          alpha: 1.0
+          beta: 1.0
+  clock: # Clock priors [selected in command-line]
+    rate: # strict
+      distribution: lognormal
+      dimension: 1
+      initial: 5.0e-04
+      lower: 0
+      upper: infinity
+      mean: 3e-04
+      sd: 0.3
+      real_space: true
+    uced: # relaxed exponential
+      distribution: lognormal
+      dimension: 1
+      initial: 5.0e-04
+      lower: 0
+      upper: infinity
+      mean: 3e-04
+      sd: 0.3
+      real_space: true
+    ucld_mean: # relaxed lognormal
+      distribution: lognormal
+      dimension: 1
+      initial: 5.0e-04
+      lower: 0
+      upper: infinity
+      mean: 3e-04
+      sd: 0.3
+      real_space: true
+    ucld_sd: # relaxed lognormal
+      distribution: lognormal
+      dimension: 1
+      initial: 5.0e-04
+      lower: 0
+      upper: infinity
+      mean: 3e-04
+      sd: 0.3
+      real_space: true
