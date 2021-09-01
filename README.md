@@ -17,9 +17,9 @@ Please note that preprints for this project may not complete yet, figures may st
 
 ## Sequence Data
 
-All sequence data including meta-data can be found at NCBI BioProject [PRJNA657380](https://www.ncbi.nlm.nih.gov/bioproject?term=PRJNA657380)
+All sequence data including meta-data can be found at NCBI BioProject [PRJNA657380](https://www.ncbi.nlm.nih.gov/bioproject?term=PRJNA657380). Supplementary data files in the manuscripts section of this repository contains additional analyses and data tables.
 
-** data being uploaded **
+** data is being uploaded **
 
 ## Reproducibility
 
